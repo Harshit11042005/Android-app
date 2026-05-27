@@ -1,5 +1,16 @@
 {
-  "dependencies": {
-    "typescript": "^6.0.2"
+  "name": "android-app",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "android": "npm run android --prefix AwesomeProject",
+    "ios": "npm run ios --prefix AwesomeProject",
+    "lint": "npm run lint --prefix AwesomeProject",
+    "start": "npm run start --prefix AwesomeProject",
+    "test": "npm run test --prefix AwesomeProject",
+    "typecheck": "npm run typecheck --prefix AwesomeProject"
+  },
+  "engines": {
+    "node": ">=22.11.0"
   }
 }

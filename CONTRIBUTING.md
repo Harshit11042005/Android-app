@@ -5,11 +5,12 @@ Thank you for helping improve this project.
 ## Development Setup
 
 1. Fork and clone the repository.
-2. Install dependencies with `npm ci`.
-3. Create a branch from `main`.
-4. Make your changes in a focused commit.
-5. Run `npm run lint`, `npm run typecheck`, and `npm test`.
-6. Open a pull request with a clear description of the change.
+2. Run `cd AwesomeProject`.
+3. Install dependencies with `npm ci`.
+4. Create a branch from `main`.
+5. Make focused changes.
+6. Run `npm run lint`, `npm run typecheck`, and `npm test`.
+7. Open a pull request with a clear description.
 
 ## Pull Request Guidelines
 

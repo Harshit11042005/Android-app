@@ -86,12 +86,12 @@ cd android
 
 ## Contributing
 
-Contributions are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) and follow the [Code of Conduct](CODE_OF_CONDUCT.md).
+Contributions are welcome. Please read [CONTRIBUTING.md](../CONTRIBUTING.md) and follow the [Code of Conduct](../CODE_OF_CONDUCT.md).
 
 ## Security
 
-Please report security issues privately using the process in [SECURITY.md](SECURITY.md).
+Please report security issues privately using the process in [SECURITY.md](../SECURITY.md).
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](../LICENSE).
