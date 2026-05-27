@@ -125,6 +125,31 @@ The CI workflow checks:
 
 Workflow file: [`.github/workflows/ci.yml`](.github/workflows/ci.yml)
 
+## Create Good First Issues
+
+Maintainers can create 10 beginner-friendly contributor issues with the included script.
+
+Preview the issues first:
+
+```sh
+npm run create:good-first-issues -- --dry-run
+```
+
+Create the issues:
+
+```powershell
+$env:GITHUB_TOKEN = "your_github_token_here"
+npm run create:good-first-issues
+```
+
+The script defaults to `Harshit11042005/Android-app`. To target another repository:
+
+```sh
+npm run create:good-first-issues -- owner/repo
+```
+
+Use a token with permission to create labels and issues. Do not commit your token.
+
 ## Contributing
 
 Contributions are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.

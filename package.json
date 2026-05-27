@@ -4,6 +4,7 @@
   "license": "MIT",
   "scripts": {
     "android": "npm run android --prefix AwesomeProject",
+    "create:good-first-issues": "node scripts/create-good-first-issues.mjs",
     "ios": "npm run ios --prefix AwesomeProject",
     "lint": "npm run lint --prefix AwesomeProject",
     "start": "npm run start --prefix AwesomeProject",
