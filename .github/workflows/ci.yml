@@ -67,6 +67,10 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Make Gradle wrapper executable
+        run: chmod +x gradlew
+        working-directory: AwesomeProject/android
+
       - name: Build Android debug
         run: ./gradlew assembleDebug
         working-directory: AwesomeProject/android
