@@ -79,6 +79,35 @@ bundle exec pod install --project-directory=ios
 npm run ios
 ```
 
+## Troubleshooting
+
+### Check your Node.js version
+
+This project expects Node.js 22.11 or newer. If install or build commands fail unexpectedly, confirm the active version first:
+
+```sh
+node --version
+```
+
+### Run npm commands from the app folder
+
+The React Native app dependencies live in `AwesomeProject`. Run install and app commands from that folder unless a command explicitly says it can run from the repository root:
+
+```sh
+cd AwesomeProject
+npm ci
+npm start
+```
+
+### Reinstall dependencies
+
+If Metro, Jest, ESLint, or TypeScript cannot find packages after a branch switch or interrupted install, run `npm ci` again from the app folder. It recreates the dependency tree from the lockfile:
+
+```sh
+cd AwesomeProject
+npm ci
+```
+
 ## Development Commands
 
 You can run these commands from the repository root:
